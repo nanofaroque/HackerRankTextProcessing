@@ -22,5 +22,11 @@ tail -n2 $DIRECTORY
 line=$(head -n 1 $DIRECTORY)
 echo "$line"
 
+#This will print the first 10 character of a text file 
 echo "First 10 characters of the text file:"
-head -c 100 $DIRECTORY
+head -c 10 $DIRECTORY
+
+#This will print the last 5 character of the text file
+echo "Last 5 characters of the text file"
+tail -c5 $DIRECTORY
+
