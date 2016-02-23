@@ -5,7 +5,7 @@ reset=`tput sgr0`
 
 #printing the directory
 #this is my file direcotry, it will be different for you..
-DIRECTORY="/Users/omarfaroque/ScriptingLearning/text.txt"
+DIRECTORY="/Users/omarfaroque/HackerRankTextProcessing/text.txt"
 echo "${red}directory is: $DIRECTORY ${reset}"
 
 
