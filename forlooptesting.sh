@@ -8,3 +8,5 @@ for X in {1..100}
 do
 	echo $X+1
 done
+
+#easy for loop
