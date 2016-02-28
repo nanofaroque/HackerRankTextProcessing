@@ -32,3 +32,4 @@ cut -c-6 $DIRECTORY
 #printing character postion to end of the line
 echo "print fifth character to end of the line of the file:"
 cut -c5- $DIRECTORY
+
